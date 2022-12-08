@@ -1,0 +1,19 @@
+Package: StatComp22095
+Type: Package
+Title: Example functions for 'Statistical Computing' course
+Version: 1.0
+Date: 2022-12-8
+Author: Bowen Tong
+Maintainer: Bowen Tong <1091755418@qq.com>
+Description: Several R and Rcpp function are included in this package for illustration. 
+License: GPL (>= 2)
+Imports: Rcpp, microbenchmark, knitr, rmarkdown, fBasics, fGarch
+LinkingTo: Rcpp
+RoxygenNote: 7.2.2
+Encoding: UTF-8
+VignetteBuilder: knitr
+URL: http://github.com/tongbowen1999/StatComp22095
+BugReports: http://github.com/tongbowen1999/StatComp22095/issues
+Depends: 
+    R (>= 2.10)
+LazyData: true
